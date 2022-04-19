@@ -13,7 +13,7 @@ Godot Box / Room / Grid Based Camera Node.
 * Make Current True/Enabled/Ticked inside "BoxCam2D" Inspector.
 * Also upate project Window Settings as shown.
 * Make sure to set `Mode` to `2d` and `Aspect` to `keep` in Project Settings. (Path: `Display/Window/Stretch/`)
-* Checkout ccreenshot of Project Stretch settings below.
+* Checkout screenshot of Project Stretch settings below.
 
   ![window settings](img/window_settings.png)
 
