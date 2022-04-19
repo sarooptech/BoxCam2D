@@ -21,7 +21,7 @@ func _ready():
 		
 	set_box_pos()
 	if connect("out_of_the_box", self,"set_box_pos"):
-		print("Box_Cam: Failed To Connet Signal")
+		print("Box_Cam: Failed To Connect Signal")
 	
 func _process(_delta):
 	
