@@ -27,15 +27,15 @@ func _process(_delta):
 	
 	player_pos = self.get_node(player).position
 	
-	var current_box = Vector2(floor(player_pos.x/ design_res.x), floor(player_pos.y/ design_res.y))
+	var current_box = Vector2(floor(player_pos.x / (design_res.x * zoom.x)), floor(player_pos.y / (design_res.y * zoom.y)))
 	
 	if current_box.x != box.x or current_box.y != box.y:
 		emit_signal("out_of_the_box")
 		box = current_box
 
 func set_box_pos():
-	var box_pos_x = ( design_res.x * floor(player_pos.x/ design_res.x) )
-	var box_pos_y = ( design_res.y * floor(player_pos.y/ design_res.y) )
+	var box_pos_x = ((design_res.x * zoom.x) * floor(player_pos.x / (design_res.x * zoom.x)))
+	var box_pos_y = ((design_res.y * zoom.y) * floor(player_pos.y / (design_res.y * zoom.y)))
 	
-	self.position.x = design_res.x/2 + box_pos_x
-	self.position.y = design_res.y/2 + box_pos_y
+	self.position.x = ((design_res.x / 2) * zoom.x) + box_pos_x
+	self.position.y = ((design_res.y / 2) * zoom.y) + box_pos_y
