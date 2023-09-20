@@ -26,6 +26,6 @@ Have any query regarding this asset? Write me at sdiforalll@gmail.com
 
 # Contributors:
 
-<a href="https://github.com/samdaiya/Python/graphs/contributors">
+<a href="https://github.com/samdaiya/BoxCam2D/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=samdaiya/BoxCam2D"/>
 </a>
