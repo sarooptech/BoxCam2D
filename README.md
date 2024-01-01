@@ -21,8 +21,8 @@ Godot Box / Room / Grid Based Camera Node.
 # Credits:
 This asset is created during AssetJam-5. You can use this Asset in any possible way you want.
 Checkout LICANCE for More Details.
-If you like my work please consider following me on twitter at "https://twitter.com/_saroop_daiya".
-Have any query regarding this asset? Write me at sdiforalll@gmail.com
+If you like my work please consider following me on twitter at "https://twitter.com/sarooptech".
+Have any query regarding this asset? Write me at sarooptech@gmail.com
 
 # Contributors:
 
