@@ -23,9 +23,3 @@ This asset is created during AssetJam-5. You can use this Asset in any possible 
 Checkout LICANCE for More Details.
 If you like my work please consider following me on twitter at "https://twitter.com/sarooptech".
 Have any query regarding this asset? Write me at sarooptech@gmail.com
-
-# Contributors:
-
-<a href="https://github.com/samdaiya/BoxCam2D/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=samdaiya/BoxCam2D"/>
-</a>
